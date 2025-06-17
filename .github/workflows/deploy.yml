@@ -30,4 +30,4 @@ jobs:
       - name: Trigger Render Deployment
         if: success()
         run: |
-          curl -X POST "https://api.render.com/deploy/srv-d185s695pdvs73btc7ag?key=gCv0d1LQC5Q"
+          curl -X POST "https://api.render.com/deploy/srv-d18foajuibrs73d0m4ig?key=QUyr3-mMx1U"

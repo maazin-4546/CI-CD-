@@ -10,6 +10,10 @@ app.get('/about', (req, res) => {
   res.send('About Page')
 })
 
+app.get('/service', (req, res) => {
+  res.send('service Page')
+})
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
